@@ -1,0 +1,6 @@
+<h2>Follow us</h2>
+<ul>
+	{% for account in site.social_accounts %}
+		<li><i class="fab fa-{{ account.icon }}"></i> {{ account.name }}</li>
+	{% endfor %}
+</ul>

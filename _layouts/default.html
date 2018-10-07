@@ -1,0 +1,26 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{{ page.title }} - {{ site.name }}</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+	<h1>{{ page.title }}</h1>
+	
+	<div class="container">
+		<div class="item">
+			{% include contact.html %}		
+		</div>
+		<div class="item">
+			{% include social.html %}
+		</div>
+		<div class="item">
+			{% include addresses.html %}
+		</div>
+	</div>
+	
+</body>
+</html>
+

@@ -1,0 +1,20 @@
+<h2>Location</h2>
+
+{% for address in site.addresses %}
+	<p>
+	<b>{{ address.type }} address</b> <br>
+	{{ address.address1 }} <br>
+	{% if address.address2 %}
+		{{ address.address2 }} <br>
+	{% endif %}
+	{{ address.area }} <br>
+	{{ address.city }} <br>
+	{{ address.postal_code }} <br>
+	{{ address.country }}
+	</p>
+	{% if address.type and address.map_url %}
+		<p>
+			<a href="{{ address.map_url }}" target="_blank">View map</a>
+		</p>
+	{% endif %}
+{% endfor %}

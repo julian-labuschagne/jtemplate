@@ -1,0 +1,12 @@
+<h2>Contact us</h2>
+
+{% for contact in site.contact_numbers %}
+	<i class="fas fa-{{ contact.type }}"></i>
+	{{ contact.type | capitalize }} <br>
+		
+	<ul>
+		{% for number in contact.numbers %}
+			<li>{{number}}</li>
+		{%endfor%}
+	</ul>
+{% endfor %}
