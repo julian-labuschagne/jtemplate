@@ -25,3 +25,18 @@ social_accounts:
     url: "http://linkedin.com"
     icon: linkedin
 
+addresses:
+  - type: Physical
+    address1: "Parkwood building 2b"
+    address2: "63 Grosvernor Rd"
+    area: Bryanston
+    city: Johannesburg
+    postal_code: "0119"
+    country: South Africa
+    map_url: "https://goo.gl/WWDE4C"
+  - type: Postal
+    address1: "P.O. Box 3890"
+    area: Theresapark
+    city: Pretoria
+    postal_code: "0182"
+    country: South Africa
