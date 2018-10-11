@@ -1,0 +1,33 @@
+#header {
+    background: #16b0d1;
+
+    .container {
+      display: flex;
+      padding: 15px 0;
+    }
+
+    #slogan {
+      flex-grow: 1;
+      align-self: center;
+      text-align: center;
+
+      color: #fff;
+    }
+
+    #navigation {
+      align-self: center;
+
+      ul {
+        margin: 0;
+        list-style-type: none;
+
+        li {
+          padding-right: 10px;
+        }
+        li:last-child {
+          padding-right: 0;
+        }
+      }
+    }
+
+}

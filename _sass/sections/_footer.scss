@@ -1,0 +1,19 @@
+#footer {
+  color: #efefef;
+  background: #454545;
+
+  .container {
+    display: flex;
+  }
+
+  .item {
+    flex-grow: 1;
+  }
+}
+
+#copyright {
+  color: #efefef;
+  background: #000;
+  text-align: center;
+  padding: 15px 0;
+}
