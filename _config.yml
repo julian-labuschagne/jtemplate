@@ -1,5 +1,15 @@
 name: JLab Templates
 
+
+header:
+  logo:
+    enabled: true
+    url: "http://yoursite.com"
+    alt: "Your site Logo"
+  slogan:
+    enabled: true
+    text: "Some slogan text"
+
 contact_numbers:
   - type: phone
     numbers:
