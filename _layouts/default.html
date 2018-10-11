@@ -7,20 +7,11 @@
 </head>
 <body>
 
+	{% include header.html %}
+
 	<h1>{{ page.title }}</h1>
-	
-	<div class="container">
-		<div class="item">
-			{% include contact.html %}		
-		</div>
-		<div class="item">
-			{% include social.html %}
-		</div>
-		<div class="item">
-			{% include addresses.html %}
-		</div>
-	</div>
-	
+
+	{% include footer.html %}
+
 </body>
 </html>
-
