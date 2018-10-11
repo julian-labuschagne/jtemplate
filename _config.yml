@@ -1,8 +1,8 @@
 name: JLab Templates
 
-contact_numbers: 
+contact_numbers:
   - type: phone
-    numbers: 
+    numbers:
       - "+27 23 456 7890"
       - "+27 23 456 7891"
   - type: mobile
@@ -13,7 +13,7 @@ contact_numbers:
     numbers:
       - "+27 12 345 6789"
       - "+27 12 345 6780"
-      
+
 social_accounts:
   - name: Facebook
     url: "http://facebook.com"
@@ -40,3 +40,9 @@ addresses:
     city: Pretoria
     postal_code: "0182"
     country: South Africa
+
+collections:
+  services:
+    output: true
+  products:
+    output: true
