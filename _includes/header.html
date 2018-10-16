@@ -1,15 +1,15 @@
 <div id="header">
   <div class="container">
 
-    {% if site.header.logo.enabled %}
+    {% if site.data.header.logo.enabled %}
       <div id="logo" class="item">
-        <img src="/assets/img/branding/logo.png" alt="{{ site.header.logo.alt }}">
+        <img src="/assets/img/branding/logo.png" alt="{{ site.data.header.logo.alt }}">
       </div>
     {% endif %}
 
-    {% if site.header.slogan.enabled %}
+    {% if site.data.header.slogan.enabled %}
       <div id="slogan">
-        {{ site.header.slogan.text }}
+        {{ site.data.header.slogan.text }}
       </div>
     {% endif %}
 

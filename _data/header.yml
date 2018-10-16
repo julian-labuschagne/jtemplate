@@ -1,0 +1,7 @@
+logo:
+  enabled: true
+  url: "http://yoursite.com"
+  alt: "Your site Logo"
+slogan:
+  enabled: true
+  text: "Some slogan text"
