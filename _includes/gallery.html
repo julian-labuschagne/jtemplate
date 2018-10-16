@@ -1,0 +1,17 @@
+{% if site.data.gallery.full_width %}
+  {% assign gallery_fullwidth_class = "container-fluid" %}
+{% else %}
+  {% assign gallery_fullwidth_class = "container" %}
+{% endif %}
+<div id="gallery">
+<div class="{{ gallery_fullwidth_class }}">
+
+  <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": ".grid-sizer", "percentPosition": "true" }'>
+    <!-- .grid-sizer empty element, only used for element sizing -->
+    <div class="grid-sizer"></div>
+    {% for image in site.data.gallery.images %}
+      <div class="grid-item"><img src="{{ image.url }}" alt=""></div>
+    {% endfor %}
+  </div>
+  </div>
+</div>
