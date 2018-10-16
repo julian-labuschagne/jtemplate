@@ -1,0 +1,10 @@
+accounts:
+  - name: Facebook
+    url: "http://facebook.com"
+    icon: facebook
+  - name: Twitter
+    url: "http://twitter.com"
+    icon: twitter
+  - name: LinkedIn
+    url: "http://linkedin.com"
+    icon: linkedin
