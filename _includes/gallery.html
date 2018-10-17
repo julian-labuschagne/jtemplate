@@ -5,7 +5,7 @@
 {% endif %}
 <div id="gallery">
   <div class="{{ gallery_fullwidth_class }}">
-    <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": ".grid-sizer", "percentPosition": "true" }'>
+    <div class="grid">
       <!-- .grid-sizer empty element, only used for element sizing -->
       <div class="grid-sizer"></div>
       {% for image in site.data.gallery.images %}
