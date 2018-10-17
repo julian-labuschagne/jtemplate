@@ -1,15 +1,5 @@
 name: JLab Templates
 
-
-header:
-  logo:
-    enabled: true
-    url: "http://yoursite.com"
-    alt: "Your site Logo"
-  slogan:
-    enabled: true
-    text: "Some slogan text"
-
 contact_numbers:
   - type: phone
     numbers:
@@ -23,17 +13,6 @@ contact_numbers:
     numbers:
       - "+27 12 345 6789"
       - "+27 12 345 6780"
-
-social_accounts:
-  - name: Facebook
-    url: "http://facebook.com"
-    icon: facebook
-  - name: Twitter
-    url: "http://twitter.com"
-    icon: twitter
-  - name: LinkedIn
-    url: "http://linkedin.com"
-    icon: linkedin
 
 addresses:
   - type: Physical
