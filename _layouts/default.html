@@ -9,9 +9,22 @@
 
 	{% include header.html %}
 
-	<h1>{{ page.title }}</h1>
+	{% if page.title %}
+		<h1>{{ page.title }}</h1>
+	{% endif %}
+
+	{% if site.data.gallery.enabled %}
+		{% include gallery.html %}
+	{% endif %}
 
 	{% include footer.html %}
+
+	<!-- jQuery -->
+	<script type="text/javascript" src="/assets/js/plugins/jquery-3.3.1.min.js"></script>
+
+	<!-- Masonry plugins -->
+	<script type="text/javascript" src="/assets/js/plugins/masonry.pkgd.min.js"></script>
+	<script type="text/javascript" src="/assets/js/masonry.js"></script>
 
 </body>
 </html>
